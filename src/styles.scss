@@ -21,9 +21,8 @@ body{
 
 }
 
-html{
-  overflow: scroll;
-  overflow-x: hidden;
+::-webkit-scrollbar {
+    display: none;
 }
 
 input[type=text], input[type=password]{
