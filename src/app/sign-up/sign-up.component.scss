@@ -1,0 +1,29 @@
+$red: #f44336;
+$blue: #2196f3;
+$web-gradient: -webkit-linear-gradient(to right, $red, $blue);
+$gradient: linear-gradient(to right, $red, $blue);
+
+.container{
+
+  padding: 5em 0;
+  width: 100%;
+  min-height: 750px;
+  background: $web-gradient;
+  background: $gradient;
+
+  p{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .form-container{
+    margin: 1em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: -5px 5px 30px #222;
+  }
+}
+

@@ -26,15 +26,22 @@ body{
 }
 
 input[type=text], input[type=password]{
-  width: 96%;
-  margin: 5px auto;
+  width: 98%;
+  margin: 5px auto 5px 0;
   padding: 10px;
   font-size: 16px;
   border-radius: 4px;
   border: 1px solid $soft-gray;
 }
 
+.sign-in{
+  input[type=text], input[type=password]{
+    width: 96%;
+  }
+}
+
 input[type=text], input[type=password], input[type=textarea]{
+  margin-left: 0;
   &:focus{
     box-shadow: 0 0 5px $link-color;
     border: 1px solid $link-color;
@@ -63,3 +70,10 @@ input.primary{
     border: 1px solid darken($primary-color, 10%);
   }
 }
+
+form{
+  fieldset{
+    border: none;
+  }
+}
+

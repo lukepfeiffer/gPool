@@ -1,4 +1,6 @@
 $link-color: #517a9e;
+$web-gradient: -webkit-linear-gradient(to right, #f44336, #2196f3);
+$gradient: linear-gradient(to right, #f44336, #2196f3);
 
 .container{
   display: flex;
@@ -7,8 +9,8 @@ $link-color: #517a9e;
   width: 100%;
   min-height: 750px;
   background: #2196f3;
-  background: -webkit-linear-gradient(to right, #f44336, #2196f3);
-  background: linear-gradient(to right, #f44336, #2196f3);
+  background: $web-gradient;
+  background: $gradient;
 
   .form-container{
     width: 50%;
@@ -35,13 +37,6 @@ $link-color: #517a9e;
       &:hover{
         color: darken($link-color, 10%);
         text-decoration: underline;
-      }
-    }
-
-    form{
-
-      fieldset{
-        border: none;
       }
     }
 
