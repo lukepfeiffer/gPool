@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  font-family: "Varela Round", sans-serif;
+}
+
+body{
+  margin: 0;
+  width: 81%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+
+  @media only screen and (max-device-width: 1200px){
+    width: 90% !important;
+  }
+
+  @media only screen and (max-device-width: 768px){
+    width: 100% !important;
+  }
+
+}
+
+html{
+  overflow: scroll;
+  overflow-x: hidden;
+}
