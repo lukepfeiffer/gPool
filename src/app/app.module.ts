@@ -8,6 +8,8 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HomeNavComponent } from './home-nav/home-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserNavComponent } from './user-nav/user-nav.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     SignInComponent,
     HomeNavComponent,
     FooterComponent,
-    SignUpComponent
+    SignUpComponent,
+    DashboardComponent,
+    UserNavComponent
   ],
   imports: [
     BrowserModule,
