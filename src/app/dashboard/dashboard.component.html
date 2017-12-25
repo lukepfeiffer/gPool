@@ -1,4 +1,8 @@
 <app-user-nav></app-user-nav>
-<p>
-  dashboard works!
-</p>
+
+<div class="rides">
+  <div *ngFor="let ride of rides" class="ride">
+    <h2> {{ride.id}}</h2>
+  </div>
+</div>
+
